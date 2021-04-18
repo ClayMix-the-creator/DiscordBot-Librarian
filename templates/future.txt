@@ -1,0 +1,5 @@
+There will be html pages of:
+Main page with each added book
+Registration
+Authorization
+Adding a book
