@@ -1,2 +1,3 @@
-There will be files that will help us work with
-forms by the type of registration and authorization
+Okay, I a little bit lied that there'd be a form of
+Authorization. I just added that form to main.py
+There will be a form of adding a book to the 'Library'

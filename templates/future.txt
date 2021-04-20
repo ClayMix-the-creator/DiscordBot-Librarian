@@ -1,5 +1,4 @@
-There will be html pages of:
-Main page with each added book
-Registration
-Authorization
-Adding a book
+As you can see, I added pages of
+Authorization and registration, but without any functionality
+Pages will have functionality when I set up a database
+To which all users will write
