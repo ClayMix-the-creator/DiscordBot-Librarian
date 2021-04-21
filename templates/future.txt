@@ -1,4 +1,3 @@
-As you can see, I added pages of
-Authorization and registration, but without any functionality
-Pages will have functionality when I set up a database
-To which all users will write
+This update I incompletely set up the database, but
+Now we can register and authorize
+In future I'll make a page with book adding function
