@@ -1,3 +1,2 @@
-This update I incompletely set up the database, but
-Now we can register and authorize
-In future I'll make a page with book adding function
+There's all pages, which you can visit on site
+Except Api

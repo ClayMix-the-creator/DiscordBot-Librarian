@@ -2,4 +2,28 @@
 
 {% block content %}
 <h1>Книги</h1>
+{% for item in books%}
+<div class="col-md6 border border-dark rounded" style="background-color: silver">
+    <h2>{{item.title}}</h2>
+    <h2>Автор - {{item.author}}</h2>
+    <h2>Оценка - {{item.mark}}</h2>
+    <div>
+        {{item.content}}
+    </div>
+    <div>
+        Автор - {{item.user.name}}, Дата написания - {{item.created_date}}
+    </div>
+    {% if current_user.is_authenticated and current_user == item.user %}
+    <div>
+        <a href="/book/{{ item.id }}" class="btn btn-warning">
+            Изменить
+        </a>
+        <a href="/delete_book/{{ item.id }}" class="btn btn-danger">
+            Удалить
+        </a>
+    </div>
+    {% endif %}
+</div>
+</br>
+{% endfor %}
 {% endblock %}

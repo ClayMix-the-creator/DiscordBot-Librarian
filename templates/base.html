@@ -9,23 +9,23 @@
           crossorigin="anonymous">
     <title>{{title}}</title>
 </head>
-<body>
+<body style="background-color: grey; ">
 <header>
-    <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="/">DiscordBot-Librarian</a>
+    <nav class="navbar navbar-light" style="background-color: black;">
+        <a class="navbar-brand text-white" href="/">DiscordBot-Librarian</a>
         {% if current_user.is_authenticated %}
-        <a class="navbar-brand" href="/logout">{{ current_user.name }}</a>
-        <a href="/" class="btn btn-secondary">Добавить книгу</a>
+        <a class="navbar-brand text-white" href="/logout">{{ current_user.name }}</a>
+        <a href="/add_book" class="btn btn-secondary">Добавить книгу</a>
     {% else %}
         <p>
-            <a class="btn btn-primary " href="/register">Зарегистрироваться</a>
-            <a class="btn btn-success" href="/login">Войти</a>
+            <a class="btn btn-secondary" href="/register">Зарегистрироваться</a>
+            <a class="btn btn-secondary" href="/login">Войти</a>
         </p>
     {% endif %}
     </nav>
 </header>
 <!-- Begin page content -->
-<main role="main" class="container">
+<main role="main" class="container" style="background-color:grey;">
     {% block content %}{% endblock %}
 </main>
 </body>

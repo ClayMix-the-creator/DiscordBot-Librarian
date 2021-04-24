@@ -1,3 +1,2 @@
-Okay, I a little bit lied that there'd be a form of
-Authorization. I just added that form to main.py
-There will be a form of adding a book to the 'Library'
+Now, there are enough forms to full site work
+Yeah, I can make some more forms, but I has no need of that
