@@ -3,3 +3,4 @@ Werkzeug~=1.0.1
 Flask~=1.1.2
 WTForms~=2.3.3
 Discord~=1.7.1
+flask-ngrok~=0.0.25

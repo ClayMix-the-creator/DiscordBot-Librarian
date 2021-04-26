@@ -3,7 +3,7 @@ import datetime
 import sqlite3
 from werkzeug.security import generate_password_hash
 
-TOKEN = "ODM1Nzg1MjM4Mzg2NTczMzEz.YIUfqA.h1RjcjNG7_gh-eMuVHC6drUhV8s"
+TOKEN = "use_your_token"
 LINK = '*not available*'
 con = sqlite3.connect('db/library.sqlite')
 CUR = con.cursor()
