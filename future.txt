@@ -1,6 +1,0 @@
-So, I finally set up and customized the site (it become darker)
-Tomorrow I'll make a discord bot that can:
-Find books
-Make new books
-Edit books
-Find books with similar names
