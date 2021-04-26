@@ -6,7 +6,7 @@
     {{ form.hidden_tag() }}
     <p>
         {{ form.title.label }}<br>
-        {{ form.title(class="form-control") }}<br>
+        {{ form.title(class="form-control", style="background-color: black; color: white;") }}<br>
         {% for error in form.title.errors %}
             <p class="alert alert-danger" role="alert">
                 {{ error }}
@@ -15,7 +15,7 @@
     </p>
     <p>
         {{ form.author.label }}<br>
-        {{ form.author(class="form-control") }}<br>
+        {{ form.author(class="form-control", style="background-color: black; color: white;") }}<br>
         {% for error in form.author.errors %}
             <p class="alert alert-danger" role="alert">
                 {{ error }}
@@ -24,7 +24,7 @@
     </p>
     <p>
         {{ form.mark.label }}<br>
-        {{ form.mark(class="form-control") }}<br>
+        {{ form.mark(class="form-control", style="background-color: black; color: white;") }}<br>
         {% for error in form.mark.errors %}
             <p class="alert alert-danger" role="alert">
                 {{ error }}
@@ -33,7 +33,7 @@
     </p>
     <p>
         {{ form.content.label }}<br>
-        {{ form.content(class="form-control") }}<br>
+        {{ form.content(class="form-control", style="background-color: black; color: white;") }}<br>
         {% for error in form.content.errors %}
             <p content="alert alert-danger" role="alert">
                 {{ error }}

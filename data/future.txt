@@ -1,6 +1,0 @@
-I made API of library and API editing function
-Now, you can get/edit db data with requests like GET, POST, DELETE and PUT
-
-So, I did everything I want there
-There will not be future.txt cause I have no idea
-What I'll make there

@@ -1,2 +1,0 @@
-There's all pages, which you can visit on site
-Except Api

@@ -1,2 +1,0 @@
-You can see here the database I already created here
-It is designed to save data about users and books that users have added.
